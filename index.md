@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-[Link to another page](./another-page.html).
+[Link to my website](./http://rudest-oxymoron.poseidon.salford.ac.uk/webdev/index.html).
 
 There should be whitespace between paragraphs.
 
