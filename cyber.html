@@ -1,0 +1,181 @@
+<!Doctype html>
+<html lang="en-gb">
+<head>
+    <title>Jonathan's Website</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <link rel="stylesheet" type="text/css" href="style.css" >
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav class="navigationBar">
+                <!--navigation starts here-->
+                <a href="index.html">Home</a>
+                <a href="work.html">Work experience</a>
+                <a href="cyber.html">CyberSecurity</a>
+                <!--navigation ends here-->
+            </nav>
+        </header>
+        <div id="Cyber">
+            <div id="PageMove">
+                <p>
+                    This Page is about my interest in cyber security. Below are sections on the certifications I am interested in studying for
+                    as well as my current / future projects.
+                </p>
+                <nav id="SectionMove">
+                    <ol>
+                        <li><a href="#Certifications">Certifications</a></li>
+                        <li><a href="#ProjectArea">Projects</a></li>
+                    </ol>
+                </nav>
+            </div>
+            <section id="Certifications">
+                <h1>Certifications</h1>
+                <h2>CompTia A+</h2>
+                <div class="qual">
+                    <div class="column">
+                        <h3>Pros</h3>
+                        <ul>
+                            <li>Highly recognised</li>
+                            <li>Highly marketable</li>
+                            <li>Highly versatile</li>
+                            <li>Very cost effective certification</li>
+                        </ul>
+                    </div>
+                    <br >
+                    <div class="column">
+                        <h3>Cons</h3>
+                        <ul>
+                            <li>Lacks higher level information</li>
+                            <li>Must be renewed every three years</li>
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <h2>CompTia Network+</h2>
+                <div class="qual">
+                    <div class="column">
+                        <h3>Pros</h3>
+                        <ul>
+                            <li>Highly recognised</li>
+                            <li>Highly marketable</li>
+                            <li>vendor neutral</li>
+                            <li>Very versatile</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3>Cons</h3>
+                        <ul>
+                            <li>Several better certifications at same level</li>
+                            <li>lacks in depth knowledge as it's vender neutral</li>
+                            <li>Can be less marketable due to lack of in-depth knowledge</li>
+                            <li>Must be renewed every three years</li>
+                        </ul>
+                    </div>
+                </div>
+                <br >
+                <h2>CompTia Security+</h2>
+                <div class="qual">
+                    <div class="column">
+                        <h3>Pros</h3>
+                        <ul>
+                            <li>Highly recognised</li>
+                            <li>Highly marketable</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3>Cons</h3>
+                        <ul>
+                            <li>Must be renewed every three years</li>
+                            <li>Entry level certification</li>
+                        </ul>
+                    </div>
+                </div>
+                <br >
+                <h2>OSCP</h2>
+                <div class="qual">
+                    <div class="column">
+                        <h3>Pros</h3>
+                        <ul>
+                            <li>Highly recognised</li>
+                            <li>Very relevant to modern cybersecurity</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3>Cons</h3>
+                        <ul>
+                            <li>Very expensive (retests can cost as much as another certification)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="ProjectArea">
+                <h1> CyberSecurity projects</h1>
+                <p>
+                    Projects are an excellent way to demonstrate and practice key skills within cybersecurity and computer science as a whole
+                    . This portion of the Website details projects that I have completed and what skills they demonstrate. There will also
+                    be a section dedicated to ongoing or future projects.
+                </p>
+                <h2>Completed projects</h2>
+                <div class="Project">
+                    <h3>Set up of virtual machine</h3>
+                    <p>
+                        I have set up  a virtual machine on both my laptop and desktop. This is an important tool as virtual achines allow for the testing of
+                        malware and other typically harmful practices with less risk of infecting a home network. Due to the virtual machine I am now studying
+                        malware analysis as well as how to locate harmful programs that have been unknowingly running on a device.
+                    </p>
+                </div>
+                <div class="Project">
+                    <h3>Simple encryption tool</h3>
+                    <p>
+                        Encryption is a common tool used to ensure privacy in data transfer and storage. In order to ensure I know how common methods of encryption
+                        work, I created a simple program that would encrypt a given user input.
+                        <br />
+                        currently it only encrypts using a ceaser cipher, which is outdated and unsecure. It also stills has some bugs,including attempting to convert
+                        some letters to special characters.<br />
+                        The changes im going to make to this project are:
+                        <ol>
+                            <li>fix the current bugs</li>
+                            <li>give the option to use multiple encryption algorithms</li>
+                            <li>the ability to decrypt an inputted message, either with a key or via brute force ( e.g. guessing keys and checking outputs against a dictionary)</li>
+                        </ol>
+                    </p>
+                </div>
+                <h2>Future projects</h2>
+                <div class="Project">
+                    <h3>Set up and monitor a network</h3>
+                    <p>
+                        Networks are common targets for attacks by hacker, so knowing how to defend one has its roots in how to both set up and maintain a network.
+                        Since I currently have access to a spare rooter i'm going to set up a private network with a couple of devices and learn how to do basic monitoring
+                        and security e.g.defence against port scanning. By having this network set up I will also have the ability to practice methods of attack such as using <abbr title="Network Mapper">nmap</abbr>
+                        and infecting devices with <abbr title="malicious software">malware</abbr>.
+                    </p>
+                </div>
+                <div class="Project">
+                    <h3>Creation of a honeypot</h3>
+                    <p>
+                        Honey pots are a common defence tactic used against attackers that have decided to launch an attack against the network. This is a computer system with the sole purpose
+                        of being sacrificed to the attacker, so it has built in security vulnerabilities and made to look valuable so that actually useful computers can remain safe. In addition to this,
+                        the honey pot can be used as a means to further enhance security by allowing the network administrator to learn about what attackers are using to attack
+                        the network without risking anything of value.<br />
+                        This is done with varying types of honeypots such as
+                        <ul>
+                            <li>Email traps:these bait spam emails with harmful links so that the senders IP address can be added to a deny list</li>
+                            <li>decoy databases:these bait SQL injection and help monitor software vulnerabilities</li>
+                            <li>malware honeypot:mimics software apps to invite malware attacks. This allows for malware analysis to be used to help develop countermeasures</li>
+                        </ul>
+                        <br >
+                        By setting up a honeypot i will be able to use it to test means of attack, as well as ensure I am familiar with how honeypots work/look as i'm interested in
+                        pen testing
+                    </p>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <address>Created by <a href="mailto:jonathanandrewheaton@gmail.com">jonathan heaton</a></address>
+            <a href="https://www.linkedin.com/" target="_blank">Message me on linked in @ jonathan heaton</a>
+        </footer>
+    </div>
+</body>
+</html>
